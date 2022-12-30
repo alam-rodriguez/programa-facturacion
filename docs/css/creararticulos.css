@@ -1,0 +1,166 @@
+.create-article-header {
+    display: flex;
+    justify-content: space-between;
+    height: 48px;
+    background-color: #09A51C;
+    color: #fff;
+    position: relative;
+}
+.create-article-header .fa-circle-left{
+    margin: 12px;
+    color: #fff;
+}
+.create-article-header p {
+    font-size: 20px;
+    margin: 10px;
+}
+.create-article-header input{
+    margin-right: 10px;
+    border: none;
+    background: transparent;
+    font-size: 15px;
+    color: #fff;
+}
+.precios, .Ingredientes-adicionales{
+    /* margin: 5px;
+    padding: 6px;
+    display: grid;
+    grid-template-columns: 100px 100px;
+    grid-template-rows: 100px 100px;
+    border: 4px solid blue; */
+
+    display: grid;
+    grid-template-columns: 150px 150px;
+    grid-template-rows: 50px 50px;
+    justify-content: center;
+    text-align: center;
+    padding: 1;
+    grid-gap: 5px;
+}
+/* .precios, .Ingredientes-adicionales input{
+    width: 100%;
+    margin: auto;
+} */
+#nueva-variante, #nuevo-ingrediente-adicional {
+    width: 50%;
+    background-color: #09A51C;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    display: block;
+    position: relative;
+    margin: 10px auto;
+}
+
+.newArticle{
+    width: 80%;
+    margin: 20px auto;
+    border: gray 1px solid;
+    padding: 20px;
+}
+#nombre{
+    display: block;
+    margin: 15px 0px;
+    font-size: 18px;
+    border: none;
+    border-bottom: 1px solid gray;
+    background: transparent;
+    width: 94%;
+}
+label{
+    display: block;
+    color: gray;
+}
+select{
+    width: 94%;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid gray;
+    padding: 5px 0px;
+    margin: 5px 0px;
+    font-size: 15px;
+}
+.precios-y-adicionales{
+    display: flex;
+    width: 100%;
+    /* background: red; */
+    justify-content: center;
+}
+.precios-content, .Ingredientes-adicionales-content{
+    display: block;
+    width: 50%;
+}
+#img-file{
+    width: 100%;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid gray;
+    padding: 10px;
+    margin: 10px 0px;
+}
+#send-form{
+    width: 200px;
+    border-radius: 5px;
+    font-size: 20px;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    background: #09A51C;
+    display: block;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+img{
+    width: 400px;
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 800px) {
+    .precios-y-adicionales{
+        display: block;
+        width: 1%;
+        margin: auto;
+    }
+    #nueva-variante, #nuevo-ingrediente-adicional {
+        width: 100px;
+    }
+  }
