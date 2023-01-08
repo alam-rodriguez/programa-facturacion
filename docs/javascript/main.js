@@ -712,14 +712,14 @@ const createRecibos = () =>{
 
 
 const imprimirRecibo = ( pedido ) =>{
-    // let btnImprimir = document.querySelector('#btn-imprimir');
-    // btnImprimir.addEventListener('click',()=>{
-    //     let cobrarPaso1 = document.querySelector('.cobrar-paso-1-content-1').innerHTML;
-    //     let body = document.body.innerHTML;
-    //     document.body.innerHTML = cobrarPaso1;
-    //     window.print();
-    //     document.body.innerHTML = body;
-    // });
+     let btnImprimir = document.querySelector('#btn-imprimir');
+     btnImprimir.addEventListener('click',()=>{
+     let cobrarPaso1 = document.querySelector('.cobrar-paso-1-content-1').innerHTML;
+         let body = document.body.innerHTML;
+        document.body.innerHTML = cobrarPaso1;
+         window.print();
+         document.body.innerHTML = body;
+     });
 
     console.warn( pedidoCliente );
 
